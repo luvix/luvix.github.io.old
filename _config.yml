@@ -2,7 +2,7 @@
 title: Hybrid Engineer
 email: theodore@nextwe.xyz
 description: Some text about your blog.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://leesuk-kim.github.io" # the base hostname & protocol for your site
 google_analytics: "UA-96533362-1"
 
