@@ -1,24 +1,24 @@
 # Site Settings
-title: Jekflix | A theme for Jekyll
-email: youremail@xyz.com
+title: Leesuk Kim (Theodore) | Hybrid Engineer
+email: theodore@nextwe.xyz
 description: Some text about your blog.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://leesuk-kim.github.io" # the base hostname & protocol for your site
-google_analytics: "UA-XXXXXXXX-X"
+google_analytics: "UA-96533362-1"
 
 # User Settings
-username: Jekflix
+username: Leesuk Kim (Theodore)
 user_description: Some text about you.
 disqus_username: disqus_username
 
 # Social Media
 # Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
+github_username: leesuk-kim
+facebook_username: theodore.leesuk.kim
+twitter_username: thdr_lees
+instagram_username: thdr_lees
+linkedin_username: leesukkim
+# medium_username: medium_username
 
 # Build settings
 markdown: kramdown
