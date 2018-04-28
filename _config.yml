@@ -1,5 +1,5 @@
 # Site Settings
-title: Hybrid Engineer
+title: Hybrid System Engineer
 email: theodore@nextwe.xyz
 description: Some text about your blog.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -9,7 +9,7 @@ google_analytics: "UA-96533362-1"
 # User Settings
 username: Leesuk Kim (Theodore)
 user_description: System&Network Engineer, Arduino Engineer, Devops Engineer, Machine Learning Scientest
-disqus_username: thdrl
+disqus_username: theodore-kim
 
 # Social Media
 # Remove the item if you don't need it
