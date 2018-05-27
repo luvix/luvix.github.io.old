@@ -42,29 +42,29 @@ ubuntu@host:~$ lynx http://www.softether-download.com/files/softether/
 
 접속하면 아래와 같은 그림이 나타난다.
 
-![lynx01](https://downloader.disk.yandex.ru/preview/8565cd31e62d62159e76ab176bd66904d005c9a6c4d23ed5267aa2a16fc2af16/5b0a76e8/4dPCFWsGZ7MktAydZ6j7-ce8Nt9rfA_bGUP06PWV8jATkyu3Bo2Cxdj5ykA2j7vj6u76mLKw5xEb2Dlvrvcgdw%3D%3D?uid=0&filename=lynx.JPG&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&tknv=v2&size=2048x2048)
+![lynx01](/imgs/180527/lynx01.jpg)
 
 맨 위는 가장 옛날, 맨 아래가 가장 최신(latest)다. 
 따라서 가장 아래의 버전으로 ↓ 화살표 키보드를 눌러 내려간 후 엔터를 쳐서 고른다.
 
-![lynx02](https://downloader.disk.yandex.ru/preview/33c054e20e813775fb648140d6ffa04b2ebe5bfa1369994ce6280758fe46bb2f/5b09f556/4dPCFWsGZ7MktAydZ6j7-X0P1Zr-LFfqfTzqMRYnmqTswWuLtFnlYlM_3iK49X3Fjab6aDu8-0jeS6i7QyZCAg%3D%3D?uid=0&filename=lynx02.JPG&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&tknv=v2&size=1920x966)
+![lynx02](/imgs/180527/lynx02.jpg)
 
 우리는 linux 에서 작업하고 있이므로 linux를 고른다.
 
-![lynx03](https://downloader.disk.yandex.ru/preview/65d8fb593545ddb5fe7b74d9d089c7f1b23693668fd3892da7eea5ad97c41040/5b09f55c/4dPCFWsGZ7MktAydZ6j7-SKpwZ_xR5tCV5jbKMunyJ7w8QvdS8ICD3Cdo2KbDbQ8GjtyYBQ2B0ledzfK68eb1w%3D%3D?uid=0&filename=lynx03.JPG&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&tknv=v2&size=2048x2048)
+![lynx03](/imgs/180527/lynx03.jpg)
 
 VPN server를 구축하니까 server 선택.
 
-![lynx04](https://downloader.disk.yandex.ru/preview/a4834c70865aafa01b57f09e908afa76e0a058b68b26b0b931242b783ffc26df/5b09f561/4dPCFWsGZ7MktAydZ6j7-TeMBPjcaGcRoSKzMN-hYXIdKgbMMff-MhvoFTAdjcmayEJWUi5TLv4oS5MgvmT9fg%3D%3D?uid=0&filename=lynx04.JPG&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&tknv=v2&size=2048x2048)
+![lynx04](/imgs/180527/lynx04.jpg)
 
 64bit 를 선택한다.
 
-![lynx05](https://downloader.disk.yandex.ru/preview/ffc32a367ef1937f7a4a5406cc657425b88309a033566c61220d1b9faf193139/5b09f565/4dPCFWsGZ7MktAydZ6j7-f30BYwR_PuFFQAVR11i-V4EsvCsWhluYOhRE53sj1mvTqsXlXWYhVe8U40XbPtZzQ%3D%3D?uid=0&filename=lynx05.JPG&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&tknv=v2&size=2048x2048)
+![lynx05](/imgs/180527/lynx05.jpg)
 
 초보 서버개발자는 lynx를 처음 써서 다운로드받는 방법을 모를 수 있다.
 다운로드하려는 항목에 커서를 옮긴 후 'D'를 누르면 다운받아진다.
 
-![lync06](https://downloader.disk.yandex.ru/preview/ae6bf2336d11bc6f4b6d40a19c2b5d07e99162809c49f51af32c32f7eaa02e2e/5b09f636/4dPCFWsGZ7MktAydZ6j7-b6JYnB5aSrnea5N9S-AqCC8Lb-rfkNxyOCJ9d0_VKWTnjI2tTS_EbB0vjAhiXY_Lg%3D%3D?uid=0&filename=lynx06.JPG&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&tknv=v2&size=2048x2048)
+![lync06](/imgs/180527/lynx06.jpg)
 
 경로를 묻는데, 그냥 엔터 치면 Home으로 다운받는다.
 
@@ -197,7 +197,7 @@ By using vpncmd program, the following can be achieved.
 2. Management of VPN Client
 3. Use of VPN Tools (certificate creation and Network Traffic Speed Test Tool)
 
-Select 1, 2 or 3: 
+Select 1, 2 or 3:
 ```
 
 3 을 입력한 후 check를 입력한다.
@@ -427,17 +427,17 @@ VPN Server/VPN>
 '설정'-'네트워크'-'VPN'으로 접근한다.
 'VPN 연결 추가'를 선택한다.
 
-![win10vpn](https://downloader.disk.yandex.ru/preview/089e971155d3b50528fdbf16f5bdab37c3e69c8804df30466f51acfc39401b38/5b0a03dd/4dPCFWsGZ7MktAydZ6j7-Y3s3oKCMNZggTIPR27mgkcWkf7yKcVe5fEH0mOAeZM5Kuk3i5wiNxIwOitkWKZ9Ng%3D%3D?uid=0&filename=win10vpn.JPG&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&tknv=v2&size=2048x2048)
+![win10vpn](/imgs/180527/win10vpn.jpg)
 
 이름을 적당히 입력한다.
 서버 주소(대게 IP)와 사전 공유 키를 입력한다.
 그리고 서버에서 설정한 아이디와 비밀번호를 입력한다.
 
-![vpnprofile](https://downloader.disk.yandex.ru/preview/36a0631d1e388ea666c2a59b8149dc7791077d756dc68ac183f87893ed0d270b/5b0a0410/4dPCFWsGZ7MktAydZ6j7-VOAekGGvV75f3V3cJUYJFtt3CXoODHOqQooIFmnhRKvTui3QbflfKFcf7POU-TzcA%3D%3D?uid=0&filename=vpnprofile.JPG&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&tknv=v2&size=2048x2048)
+![vpnprofile](/imgs/180527/vpnprofile.jpg)
 
 그리고 접속한다.
 
-![vpnlogin](https://downloader.disk.yandex.ru/preview/4a13594dbfe4fc8e7b9d2ab8069e07ff2ee31ef32da646863b0b07dce8d78b55/5b0a059a/4dPCFWsGZ7MktAydZ6j7-dt9FBTjLRBAzxN1z032EODbXzNDdFqc4FQp_MX3_aLtlrGP1dfPdf6Md5XhPRWduw%3D%3D?uid=0&filename=vpnlogin.JPG&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&tknv=v2&size=2048x2048)
+![vpnlogin](/imgs/180527/vpnlogin.jpg)
 
 ## References
 
