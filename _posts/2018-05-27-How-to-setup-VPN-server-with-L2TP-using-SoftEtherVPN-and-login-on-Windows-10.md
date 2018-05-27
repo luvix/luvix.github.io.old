@@ -420,7 +420,7 @@ The command completed successfully.
 VPN Server/VPN>
 ```
 
-참고로, 위의 코드르 보면 눈치챘겠지만, 이 설정은 Hub로 들어가지 않아도 된다.
+참고로, 위의 코드를 보면 눈치챘겠지만, 이 설정은 Hub로 들어가지 않아도 된다.
 
 ## Windows 10 에서 VPN 접속
 
