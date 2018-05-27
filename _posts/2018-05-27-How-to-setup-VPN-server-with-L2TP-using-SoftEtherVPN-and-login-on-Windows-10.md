@@ -42,7 +42,7 @@ ubuntu@host:~$ lynx http://www.softether-download.com/files/softether/
 
 접속하면 아래와 같은 그림이 나타난다.
 
-![lynx01](https://downloader.disk.yandex.ru/preview/90245339662a08fb320a59c0c38d46e0212cd5b0c6aa6ce308fc9bfdee858411/5b09f413/4dPCFWsGZ7MktAydZ6j7-ce8Nt9rfA_bGUP06PWV8jATkyu3Bo2Cxdj5ykA2j7vj6u76mLKw5xEb2Dlvrvcgdw%3D%3D?uid=0&filename=lynx.JPG&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&tknv=v2&size=2048x2048)
+![lynx01](https://downloader.disk.yandex.ru/preview/8565cd31e62d62159e76ab176bd66904d005c9a6c4d23ed5267aa2a16fc2af16/5b0a76e8/4dPCFWsGZ7MktAydZ6j7-ce8Nt9rfA_bGUP06PWV8jATkyu3Bo2Cxdj5ykA2j7vj6u76mLKw5xEb2Dlvrvcgdw%3D%3D?uid=0&filename=lynx.JPG&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&tknv=v2&size=2048x2048)
 
 맨 위는 가장 옛날, 맨 아래가 가장 최신(latest)다. 
 따라서 가장 아래의 버전으로 ↓ 화살표 키보드를 눌러 내려간 후 엔터를 쳐서 고른다.
