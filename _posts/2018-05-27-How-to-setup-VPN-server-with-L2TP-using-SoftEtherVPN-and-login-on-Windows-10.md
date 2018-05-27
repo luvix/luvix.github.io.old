@@ -42,29 +42,29 @@ ubuntu@host:~$ lynx http://www.softether-download.com/files/softether/
 
 접속하면 아래와 같은 그림이 나타난다.
 
-![lynx01](/imgs/180527/lynx01.jpg)
+![lynx01](/imgs/180527/lynx01.JPG)
 
 맨 위는 가장 옛날, 맨 아래가 가장 최신(latest)다. 
 따라서 가장 아래의 버전으로 ↓ 화살표 키보드를 눌러 내려간 후 엔터를 쳐서 고른다.
 
-![lynx02](/imgs/180527/lynx02.jpg)
+![lynx02](/imgs/180527/lynx02.JPG)
 
 우리는 linux 에서 작업하고 있이므로 linux를 고른다.
 
-![lynx03](/imgs/180527/lynx03.jpg)
+![lynx03](/imgs/180527/lynx03.JPG)
 
 VPN server를 구축하니까 server 선택.
 
-![lynx04](/imgs/180527/lynx04.jpg)
+![lynx04](/imgs/180527/lynx04.JPG)
 
 64bit 를 선택한다.
 
-![lynx05](/imgs/180527/lynx05.jpg)
+![lynx05](/imgs/180527/lynx05.JPG)
 
 초보 서버개발자는 lynx를 처음 써서 다운로드받는 방법을 모를 수 있다.
 다운로드하려는 항목에 커서를 옮긴 후 'D'를 누르면 다운받아진다.
 
-![lync06](/imgs/180527/lynx06.jpg)
+![lync06](/imgs/180527/lynx06.JPG)
 
 경로를 묻는데, 그냥 엔터 치면 Home으로 다운받는다.
 
@@ -427,17 +427,17 @@ VPN Server/VPN>
 '설정'-'네트워크'-'VPN'으로 접근한다.
 'VPN 연결 추가'를 선택한다.
 
-![win10vpn](/imgs/180527/win10vpn.jpg)
+![win10vpn](/imgs/180527/win10vpn.JPG)
 
 이름을 적당히 입력한다.
 서버 주소(대게 IP)와 사전 공유 키를 입력한다.
 그리고 서버에서 설정한 아이디와 비밀번호를 입력한다.
 
-![vpnprofile](/imgs/180527/vpnprofile.jpg)
+![vpnprofile](/imgs/180527/vpnprofile.JPG)
 
 그리고 접속한다.
 
-![vpnlogin](/imgs/180527/vpnlogin.jpg)
+![vpnlogin](/imgs/180527/vpnlogin.JPG)
 
 ## References
 
