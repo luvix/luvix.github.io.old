@@ -19,7 +19,7 @@ SoftEtherVPN으로 SSTP VPN server를 구축해본다.
 무릇 새로운 소프트웨어를 설치하려면, upgrade는 필수다.
 그리고 설치에 필요한 package인 `build-essential` 를 다운받는다.
 
-``` cmd
+```
 ubuntu@host:~$ sudo apt-get update && apt-get upgrade
 ubuntu@host:~$ sudo apt-get install build-essential -y
 ```
@@ -30,13 +30,13 @@ SoftEther 다운로드페이지로 접속하여 설치 파일을 다운받아야
 wget이나 curl로 받아도 되지만 여기서는 lynx를 사용하여 서버에서 직접 웹페이지로 접속하여 다운받는 방법을 설명한다.
 lynx는 terminal 환경에서 웹페이지에 접속하는 도구다.
 
-``` cmd
+```
 ubuntu@host:~$ sudo apt-get install lynx -y
 ```
 
 lynx로 softether 다운로드 사이트에 접속한다.
 
-``` cmd
+```
 ubuntu@host:~$ lynx http://www.softether-download.com/files/softether/
 ```
 
@@ -76,20 +76,20 @@ vpn 서버는 root 계정으로 실행해야 한다.
 하지만 우리는 일반 sudo 사용자로 실행해왔다.
 따라서 root 계정으로 변경한다.
 
-``` cmd
+```
 ubuntu@host:~$ sudo su
 ```
 
 다운받은 폴더의 압축을 푼다.
 
-``` cmd
+```
 root@host:/etc/vpnserver# tar xzvf softether-vpnserver-v4.27-9667-beta-2018.05.26-linux-x64-64bit.tar.gz
 ```
 
 압축을 풀면 `vpnserver`라는 폴더가 생긴다.
 이 폴더를 `/etc` 로 옮긴다.
 
-``` cmd
+```
 root@host:/etc/vpnserver# mv vpnserver /etc
 ```
 

@@ -12,6 +12,7 @@ AWS에서 실습을 진행하였으며, Ubuntu 16.04 LTS x64 환경이다.
 다른 버전도 버전 번호만 바꾸면 동일하다.
 
 ## Commands
+
 ``` cmd
 sudo apt install build-essential checkinstall openssl
 sudo apt-get install -ylibreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
@@ -27,6 +28,7 @@ python3.6 -V
 ```
 
 ## Comments
+
 - 설치해야되는 시스템 패키지별로 설치 방법이 다르다. 어떤 건 `apt install` 이고 어떤 건 `apt-get install` 이다. 이 점을 주의한다.
 - `configure`에서 사용하는 옵션 중 `--enable-optimizations`는 한 번 실행한 후에 적용 가능하다.
 - `CXX` 옵션은 C++로 빌드할 때 필요한 컴파일러를 지정한다.
@@ -39,7 +41,7 @@ python3.6 -V
 이 경로는 '~/.profile'에 이미 등록되어 있으므로 source를 사용하여 다시 로드해주기만 하면 된다.
 참고로 aws용 ubuntu는 bash가 `~/.profile`이지만 일반적으로는 `~/.bash_profile`이다.
 
-
 ## References
+
 - [How to Install Python 3.6 on Ubuntu 16.04, Ubuntu 16.10, 17.04](https://www.linuxbabe.com/ubuntu/install-python-3-6-ubuntu-16-04-16-10-17-04)
 - [Python ./configure does not find g++ compiler](https://superuser.com/questions/787412/python-configure-does-not-find-g-compiler)

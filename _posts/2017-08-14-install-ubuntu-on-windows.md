@@ -7,6 +7,7 @@ tags: [bash-on-windows, ssh, shell]
 comments: true
 ---
 ## bash-on-windows 설치
+
 ### 개발자용 모드 활성화하기
 
 먼저 windows 설정으로 들어가서 **업데이트 및 복구** 메뉴로 이동합니다.
@@ -46,6 +47,7 @@ WSL(Windows Subsystem for Linux, 한글명 'Linux용 Windows 하위 시스템')�
 ![install bash](/resources/170814/ws4l-09-1.jpg)
 
 각 질문은 다음을 의미합니다.
+
 1. Ubuntu-on-Windows를 설치할 것인가?
     > 반드시 **y**
 
@@ -68,8 +70,8 @@ WSL(Windows Subsystem for Linux, 한글명 'Linux용 Windows 하위 시스템')�
 
 ![Bash on ubuntu on Windows](/resources/170814/ws4l-10.jpg)
 
-
 ### 주의점
+
 이제 윈도우에서도 `bash` 명령어를 통해 Shell script를 실행할 수 있습니다.
 또한 _PoserShell_ 처럼 윈도우 상에서 리눅스 명령어를 실행하는 방식이 아니라 _ubuntu_ 에서 실행되므로 완벽하게 작동합니다...**만**,
 반드시 `bash`명령어를 써야 하고, 다른 프로그램들이 기본적으로 지원은 커녕 이걸 이용해서 사용하는 방법도 지원 안하는 경우가 대부분이므로
@@ -78,6 +80,7 @@ WSL(Windows Subsystem for Linux, 한글명 'Linux용 Windows 하위 시스템')�
 또한 마지막 bash 창이 꺼질 때 WSL도 함께 종료되므로 주의하시기 바랍니다.
 
 ## Windows에서 `bash`로 *Shell script* 실행
+
 당연한 얘기지만, 윈도우 프로그램으로 `bash`가 있기 때문에 윈도우 명령 프롬프트 창에서 `bash`를 입력할 수 있습니다. 이 `bash`는 여타 Linux의 `bash`와 (거의) 완벽하게 동일합니다.
 
 ![windows bash](/resources/170814/ws4l-11.jpg)
@@ -88,11 +91,13 @@ WSL(Windows Subsystem for Linux, 한글명 'Linux용 Windows 하위 시스템')�
 다음은 그 예제입니다.
 
 ### `bash`로 `echo hello world` 출력하기
+
 `bash` 옵션인 `-c` 는 문자열을 명령어로 실행하는 옵션입니다. 이 옵션을 이용해 hello world를 출력해보겠습니다.
 
 ![windows bash](/resources/170814/ws4l-13.jpg)
 
 ### 명령 프롬프트 창에서 `test.sh`을 생성하고 그 내용을 bash로 출력하기
+
 이번에는 윈도우 명령어와 섞어보았습니다. 한 줄씩 살펴보겠습니다.
 
 ![windows bash](/resources/170814/ws4l-14.jpg)
@@ -105,9 +110,11 @@ WSL(Windows Subsystem for Linux, 한글명 'Linux용 Windows 하위 시스템')�
     - 'test.sh'을 bash로 실행합니다. -c는 문자열을 실행시키는 명렁어지만, 파일경로가 입력되면 그 파일에 기록된 명령어를 실행합니다.
 
 ## WSL에 ssh 접속
+
 ubuntu on Windows에 ssh로 접속해보겠습니다. `bash -c`를 이용해 명령 프롬프트에서 실행할 수 있다고는 하지만, 대부분의 윈도우 프로그램이 이를 지원하지 않습니다. 하지만 다른 리눅스 시스템처럼 ssh를 이용해 상호 통신하여 다양한 기능을 수행할 수 있습니다. eclipse의 remote tomcat server라던가, IntelliJ의 remote server처럼 말이죠.
 
 ### `ssh-server` 삭제 및 재설치
+
 버전 문제인지, 처음에 잘못 설치해서 그런지는 몰라도 있던 `ssh-server`로는 접속이 안 됩니다. 따라서 삭제 후 재설치합니다.
 
 ```
@@ -117,7 +124,8 @@ sudo apt-get install openssh-server
 
 필요한 만큼 설정해주시되, 포트는 변경해야 합니다. 저는 10022로 변경하였습니다.
 
-**/etc/ssh/sshd_config**
+#### /etc/ssh/sshd_config
+
 ```
 Port 10022
 AllowUsers theo
@@ -125,13 +133,14 @@ AllowUsers theo
 ```
 
 그리고 ssh server를 재시작합니다.
+
 ```
 sudo service ssh --full-restart
 ```
 
 이제 ssh를 접속해도 되지만, 제대로 실행되었는 지를 확인하기 위해서 윈도우에도 포트가 제대로 열렸는 지 명령 프롬프트에서 `netstat` 명령어로 확인해보겠습니다.
 
-**명령 프롬프트: netstat**
+#### 명령 프롬프트: netstat
 
 ![ws4l-win.netstat](/resources/170814/ws4l-win.netstat2.jpg)
 
@@ -142,7 +151,7 @@ sudo service ssh --full-restart
 ![login using putty](/resources/170814/ws4l-putty.jpg)
 
 ## References
+
 - [superuser: how can i ssh into bash on ubuntu on windows 10?](https://superuser.com/a/1114162)
 - [stackoverflow: What does bash c do?](https://stackoverflow.com/a/20858414)
-- [stackonverflow: How to display text file content in cmd?
-](https://stackoverflow.com/questions/17217476/how-to-display-text-file-content-in-cmd)
+- [stackonverflow: How to display text file content in cmd?](https://stackoverflow.com/questions/17217476/how-to-display-text-file-content-in-cmd)

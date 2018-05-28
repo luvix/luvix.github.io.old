@@ -2,7 +2,7 @@
 layout: post
 title: Practice to as operator
 description: as 연산자를 예제로 이해한다.
-categories: programming
+category: programming
 tags: [csharp]
 comments: true
 ---
