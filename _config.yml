@@ -1,7 +1,7 @@
 # Site Settings
 title: Hybrid System Engineer
 email: theodore@nextwe.xyz
-description: Some text about your blog.
+description: Portfolio and blog of Theodore.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://leesuk-kim.github.io" # the base hostname & protocol for your site
 google_analytics: "UA-96533362-1"
