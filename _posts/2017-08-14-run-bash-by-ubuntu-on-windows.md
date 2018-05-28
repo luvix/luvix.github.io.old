@@ -11,8 +11,8 @@ comments: true
 
 ### rvm 설치
 
-stable 버전의 rvm을 설치한다.  
-중간중간 <code>Updating system{user} password required for</code>가 나타나면서 비밀번호를 입력하라고 요청한다.  
+stable 버전의 rvm을 설치한다.
+중간중간 `Updating system{user} password required for`가 나타나면서 비밀번호를 입력하라고 요청한다.
 계정의 비밀번호를 입력하면 된다. 이번 실습에선 두 번 요청하였다.  
 curl 앞에 backslach가 있는데, 빼먹지 않도록 주의한다. 버전 충돌을 막아준다.
 

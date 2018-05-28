@@ -14,10 +14,12 @@ comments: true
 [nullable type](https://docs.microsoft.com/en-us/dotnet/articles/csharp/programming-guide/nullable-types/index)
 을 가져옵니다. 별도로 정의하지 않는 이상 `null`입니다.
 
-# 예제
+## 예제
+
 여러 타입의 변수를 string으로 형변환해보고 그 결과에 따라 서로 다른 문자열을 출력해보겠습니다.
 `objArray`에는 총 6가지 타입, `ClassA`, `ClassB`, `string`, `int`, `double`, `null` 순으로 저장됩니다.
 `for` 구문에서는 순차적으로 `as`연산자를 사용하여 `string`으로 형변환한 후, 그 결과에 따라 다음과 같이 출력합니다.
+
 - `string`이 맞을 경우: 문자열을 출력합니다.
 - `string`은 아니지만 `null`이 맞을 경우: string이 아니라 null이라고 출력합니다.
 - `string`도 아니며 `null`도 아닐 경우: string이 아니라 다른 타입이라고 출력합니다.
@@ -57,6 +59,7 @@ class MainClass
         }
     }
 }
+
 /*
 Output:
 0:not a string. -> ClassA
@@ -67,7 +70,9 @@ Output:
 5:not a string. -> null
 */
 ```
-**각 변수별 타입 설명**
+
+### 각 변수별 타입 설명
+
 - `ClassA`, `ClassB`: `Reference` 타입으로 개발자가 정의한 클래스입니다. 따라서 `string`이 아닙니다. 정의한 클래스명이 그대로 출력됩니다.  
 - `string`: `Reference` 타입으로 `System.string` 클래스이비다.  
 - `123`: `Int32` 타입이며, 이는 `Value` 타입의 일종입다. C#에서는 int가 키워드이며, 실제로는 `System.Int32` 클래스로 할당됩니다.

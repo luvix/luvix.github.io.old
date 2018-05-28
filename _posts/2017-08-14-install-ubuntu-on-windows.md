@@ -12,25 +12,25 @@ comments: true
 
 먼저 windows 설정으로 들어가서 **업데이트 및 복구** 메뉴로 이동합니다.
 
-![setting 1](/resources/170814/ws4l-01.jpg)
+![setting 1](170814/ws4l-01.jpg)
 
 여기서 **개발자용** 탭을 선택한 후 **개발자 모드** 를 선택합니다.
 
-![setting 2](/resources/170814/ws4l-02.jpg)
+![setting 2](170814/ws4l-02.jpg)
 
 이 말은 '선생님은 컴퓨터를 박살낼 수 있는 권한까지 획득할 수 있습니다'를 의미합니다. 바이러스도 이정도 권한은 그냥 가지고 다닙니다. 우리도 그 정도의 권한은 있어야겠죠? **'예'** 를 선택합니다.
 
-![setting 3](/resources/170814/ws4l-03.jpg)
+![setting 3](170814/ws4l-03.jpg)
 
 설치를 성공하면 다음처럼 설치되었다는 안내가 나옵니다.
 
-![setting 4](/resources/170814/ws4l-04.jpg)
+![setting 4](170814/ws4l-04.jpg)
 
 ### WSL 기능 켜기
 
 WSL(Windows Subsystem for Linux, 한글명 'Linux용 Windows 하위 시스템')은 윈도우에서 제공하는 기능이나 평소에는 실행할 수 없습니다. **제어판** 의 **프로그램 및 기능** 에서 **Windows 기능 켜기/끄기** 로 들어가야 키고 끌 수 습니다.
 
-![win operation](/resources/170814/ws4l-05.jpg)
+![win operation](170814/ws4l-05.jpg)
 
 선택하고 '확인'을 누르면 곧 설치가 완료됩니다. 그리 오래걸리진 않습니다. 바로 재부팅합니다.
 
@@ -40,11 +40,11 @@ WSL(Windows Subsystem for Linux, 한글명 'Linux용 Windows 하위 시스템')�
 
  그리고 아래와 같이 `bash`라고 입력합니다.
 
-![wcp bash](/resources/170814/ws4l-06.jpg)
+![wcp bash](170814/ws4l-06.jpg)
 
 설치 과정에서 총 5번의 질문을 받습니다. 아래의 빨간 동그라미가 그 입력 위치입니다.
 
-![install bash](/resources/170814/ws4l-09-1.jpg)
+![install bash](170814/ws4l-09-1.jpg)
 
 각 질문은 다음을 의미합니다.
 
@@ -68,7 +68,7 @@ WSL(Windows Subsystem for Linux, 한글명 'Linux용 Windows 하위 시스템')�
 
 이제는 명령 프롬프트창에서 `bash`를 입력하면 WSL의 bash로 접속하실 수 있습니다. 또한 '시작'에서도 bash for windows 를 확인할 수 있습니다.
 
-![Bash on ubuntu on Windows](/resources/170814/ws4l-10.jpg)
+![Bash on ubuntu on Windows](170814/ws4l-10.jpg)
 
 ### 주의점
 
@@ -83,8 +83,8 @@ WSL(Windows Subsystem for Linux, 한글명 'Linux용 Windows 하위 시스템')�
 
 당연한 얘기지만, 윈도우 프로그램으로 `bash`가 있기 때문에 윈도우 명령 프롬프트 창에서 `bash`를 입력할 수 있습니다. 이 `bash`는 여타 Linux의 `bash`와 (거의) 완벽하게 동일합니다.
 
-![windows bash](/resources/170814/ws4l-11.jpg)
-![ubuntu bash](/resources/170814/ws4l-12.jpg)
+![windows bash](170814/ws4l-11.jpg)
+![ubuntu bash](170814/ws4l-12.jpg)
 
 따라서 Shell script를 리눅스에서 하듯이 실행하면 됩니다.
 
@@ -94,13 +94,13 @@ WSL(Windows Subsystem for Linux, 한글명 'Linux용 Windows 하위 시스템')�
 
 `bash` 옵션인 `-c` 는 문자열을 명령어로 실행하는 옵션입니다. 이 옵션을 이용해 hello world를 출력해보겠습니다.
 
-![windows bash](/resources/170814/ws4l-13.jpg)
+![windows bash](170814/ws4l-13.jpg)
 
 ### 명령 프롬프트 창에서 `test.sh`을 생성하고 그 내용을 bash로 출력하기
 
 이번에는 윈도우 명령어와 섞어보았습니다. 한 줄씩 살펴보겠습니다.
 
-![windows bash](/resources/170814/ws4l-14.jpg)
+![windows bash](170814/ws4l-14.jpg)
 
 1. `echo echo hello world > test.sh`
     - `echo hello world`를 'test.sh'로 출력합니다. 이 때 `>`명령어는 '매개변수의 문자열을 파일명으로 가지는 파일을 만들어서, 있으면 삭제하고 만들어서 문자열을 저장한다'입니다.
@@ -142,13 +142,13 @@ sudo service ssh --full-restart
 
 #### 명령 프롬프트: netstat
 
-![ws4l-win.netstat](/resources/170814/ws4l-win.netstat2.jpg)
+![ws4l-win.netstat](170814/ws4l-win.netstat2.jpg)
 
 제 윈도우의 호스트네임이 Theodore라서 Theodore:10022로 매핑되어 있다고 출력됩니다. 보시면 선택한 포트인 10022 외에도 6321, 6322가 보이는데, 이는 윈도우에서 WSL과 통신하기 위해서 매핑하는 포트이며 접근은 불가능합니다. 이 매핑이 있어야 올바르게 작동합니다. 참고로 두 개가 있을 수도 있고 한 개만 매핑될 수도 있습니다.
 
 마지막으로 'putty'로 접속한 화면입니다.
 
-![login using putty](/resources/170814/ws4l-putty.jpg)
+![login using putty](170814/ws4l-putty.jpg)
 
 ## References
 
