@@ -1,0 +1,39 @@
+# Site Settings
+title: Luvix, The winged cat
+email: luvix.basso@gmail.com
+description: Portfolio and blog of Luvix Basso.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://luvix.github.io" # the base hostname & protocol for your site
+google_analytics: "UA-96533362-1"
+
+# User Settings
+username: Luvix Basso
+user_description: 모르는 만큼 궁금하고, 궁금한 만큼 알고 싶은 개발자 아닌 개발자
+# disqus_username: luvix
+
+# Social Media
+# Remove the item if you don't need it
+github_username: luvix
+twitter_username: LuvixBasso
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# Plugins
+plugins:
+  - jemoji
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Contact
+    url: /contact/
+
+# Exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
